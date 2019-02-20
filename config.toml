@@ -1,0 +1,68 @@
+## Basic Configuration
+baseurl = "https://robertjanb.github.io"
+languageCode = "en"
+
+title = "RJ's Blog"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Author"
+    title = "Title"
+    # description = "..."
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "Robert-Jan Budding"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+    
+    # Options
+    themeColor = "theme-base-09"
+
+## Social Accounts
+[params.social]
+    github = "robertjanb"
+    instagram = "<username>"
+    linkedin = "robertjanbudding"
+    twitter = "rbudding"
+    email = "robertjan@dripz.nl"
+    gravatar = "rbudding@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+##[[menu.main]]
+##    name = "Portfolio"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
