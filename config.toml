@@ -18,7 +18,7 @@ theme = "hyde-hyde"
 [params]
     author = "Author"
     title = "Title"
-    # description = "..."
+    description = "My Blog"
     authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
 
